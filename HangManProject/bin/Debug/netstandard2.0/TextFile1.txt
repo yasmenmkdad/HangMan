@@ -1,0 +1,6 @@
+apple,fruits
+watermelon,fruits
+orange,fruits
+pear,fruits
+cherry,fruits
+strawberry,fruits

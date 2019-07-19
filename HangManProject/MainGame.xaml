@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HangManProject.MainGame" BackgroundColor="White">
+    <StackLayout Orientation="Vertical" >
+       <!-- <Image x:Name="TitleHang"></Image>-->
+        <Image x:Name="hangimgs" BackgroundColor="White"></Image>
+        <Label x:Name="MissingWord"  FontSize="Medium" VerticalOptions="Center" HorizontalOptions="Center" TextColor="Black"></Label>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Text="a" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium" Grid.Row="0" Grid.Column="0" TextColor="White"></Button>
+            <Button Text="b" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="0" Grid.Column="1" TextColor="White" ></Button>
+            <Button Text="c" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="0" Grid.Column="2" TextColor="White" ></Button>
+            <Button Text="d" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="0" Grid.Column="3" TextColor="White" ></Button>
+            <Button Text="e" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="0" Grid.Column="4" TextColor="White" ></Button>
+            <Button Text="f" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="0" Grid.Column="5" TextColor="White" ></Button>
+            <Button Text="g" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="0" Grid.Column="6" TextColor="White" ></Button>
+            <Button Text="h" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="0" Grid.Column="7" TextColor="White" ></Button>
+            <Button Text="i" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="0" Grid.Column="8" TextColor="White" ></Button>
+            <Button Text="j" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="1" Grid.Column="0" TextColor="White" ></Button>
+            <Button Text="k" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="1" Grid.Column="1" TextColor="White" ></Button>
+            <Button Text="l" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="1" Grid.Column="2" TextColor="White" ></Button>
+            <Button Text="m" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="1" Grid.Column="3" TextColor="White" ></Button>
+            <Button Text="n" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="1" Grid.Column="4" TextColor="White" ></Button>
+            <Button Text="o" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="1" Grid.Column="5" TextColor="White" ></Button>
+            <Button Text="p" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="1" Grid.Column="6" TextColor="White" ></Button>
+            <Button Text="q" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="1" Grid.Column="7" TextColor="White" ></Button>
+            <Button Text="r" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="1" Grid.Column="8" TextColor="White" ></Button>
+            <Button Text="s" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="2" Grid.Column="0" TextColor="White" ></Button>
+            <Button Text="t" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="2" Grid.Column="1" TextColor="White" ></Button>
+            <Button Text="u" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="2" Grid.Column="2" TextColor="White" ></Button>
+            <Button Text="v" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="2" Grid.Column="3" TextColor="White" ></Button>
+            <Button Text="w" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="2" Grid.Column="4" TextColor="White" ></Button>
+            <Button Text="x" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="2" Grid.Column="5" TextColor="White" ></Button>
+            <Button Text="y" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="2" Grid.Column="6" TextColor="White" ></Button>
+            <Button Text="z" Clicked="alph_btn" BackgroundColor="Black" FontSize="Medium"  Grid.Row="2" Grid.Column="7" TextColor="White" ></Button>
+        </Grid>
+        <!--<Button Text="check" Clicked="check_Btn" BackgroundColor="Black" FontSize="Medium" TextColor="White"></Button>-->
+    </StackLayout>
+</ContentPage>
